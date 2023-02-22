@@ -3,4 +3,17 @@
     <string name="suggest">Suggest</string>
     <string name="previous">Previous</string>
     <string name="next">Next</string>
+    <string name="activity_image">Activity Image</string>
+
+    <string name="park">Park</string>
+    <string name="beach">Beach</string>
+    <string name="bike">Bike</string>
+    <string name="football">Football</string>
+    <string name="museum">Museum</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="shop">Shop</string>
+    <string name="swimming">Swimming</string>
+    <string name="walking">Walking</string>
+    <string name="running">Running</string>
+
 </resources>

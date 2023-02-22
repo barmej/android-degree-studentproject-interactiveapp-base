@@ -28,11 +28,12 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:contentDescription="@string/activity_image"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/park" />
+        tools:src="@drawable/park" />
 
     <FrameLayout
         android:layout_width="0dp"
@@ -48,33 +49,36 @@
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:onClick="showRandomSuggestion"
         android:text="@string/suggest"
         android:textColor="@android:color/white"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintEnd_toStartOf="@+id/nextButton"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintStart_toEndOf="@+id/previousButton"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:layout_constraintWidth_max="320dp" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/nextButton"
         android:layout_width="50dp"
         android:layout_height="0dp"
         android:background="@drawable/button_left"
         android:contentDescription="@string/previous"
+        android:onClick="nextSuggestion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:srcCompat="@drawable/ic_arrow_right_white_24dp" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/previousButton"
         android:layout_width="50dp"
         android:layout_height="0dp"
         android:background="@drawable/button_right"
         android:contentDescription="@string/next"
+        android:onClick="previousSuggestion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline"

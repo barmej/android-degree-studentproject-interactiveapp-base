@@ -3,4 +3,17 @@
     <string name="suggest">اقترح</string>
     <string name="previous">السابق</string>
     <string name="next">التالي</string>
+    <string name="activity_image">إسم النشاط</string>
+
+    <string name="park">منتزه</string>
+    <string name="beach">شاطيء</string>
+    <string name="bike">قيادة الدراجة</string>
+    <string name="football">كرةقدم</string>
+    <string name="museum">المتحف</string>
+    <string name="restaurant">مطعم</string>
+    <string name="shop">تسوق</string>
+    <string name="swimming">سباحة</string>
+    <string name="walking">رياضة المشي</string>
+    <string name="running">رياضة الجري</string>
+
 </resources>
